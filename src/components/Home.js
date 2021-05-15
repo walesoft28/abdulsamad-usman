@@ -253,6 +253,38 @@ export default function Album() {
                 </CardActions>
               </Card>
             </Grid>
+
+            <Grid item xs={12} sm={6} md={4}>
+              <Card className={classes.card}>
+                <CardMedia
+                  className={classes.cardMedia}
+                  image="images/tesla-clone-image.png"
+                  title="Image title"
+                />
+                <CardContent className={classes.cardContent}>
+                  <Typography gutterBottom variant="h5" component="h2">
+                    Tesla Clone
+                  </Typography>
+                  <Typography>
+                    A fully responsive clone of the official Tesla website built
+                    with React.
+                  </Typography>
+                </CardContent>
+                <CardActions>
+                  {/* <Button size="large" color="primary">
+                    View It Live
+                  </Button> */}
+                  <Button variant="outlined" color="primary">
+                    <a
+                      style={{ color: "#3f51b5", textDecoration: "none" }}
+                      href="https://tesla-clone-c9074.web.app/"
+                    >
+                      View It Live
+                    </a>
+                  </Button>
+                </CardActions>
+              </Card>
+            </Grid>
           </Grid>
         </Container>
       </main>

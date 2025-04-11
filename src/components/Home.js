@@ -116,7 +116,7 @@ export default function Album() {
               paragraph
             >
               A Passionate and highly-skilled Software Engineer/ReactJS
-              Developer with 3+ years of experience developing web applications.
+              Developer with 5+ years of experience developing web applications.
               Check out some of my projects below.
             </Typography>
             <div className={classes.heroButtons}>
